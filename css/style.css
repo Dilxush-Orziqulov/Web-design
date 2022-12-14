@@ -14,6 +14,10 @@ body {
     background-image: url(../img/noise\ rec2.png);
 }
 
+.container{
+    width: 80%;
+}
+
 .header-section {
     background-image: url(../img/noise\ rec.png);
     height: 75vh;
@@ -108,7 +112,7 @@ body {
 .section-card {
     border: 1px solid #eeffee;
     color: #484848;
-    width: 300px;
+    width: 270px;
 }
 
 .play-btn {
@@ -132,6 +136,8 @@ body {
     margin-right: 10px;
 }
 
+
+
 .drop-btn {
     background-color: #f4f4f4;
     width: 150px;
@@ -140,9 +146,6 @@ body {
     cursor: pointer;
 }
 
-.dropdown {
-    margin-right: 110px;
-}
 
 a {
     text-decoration: none;
@@ -155,8 +158,8 @@ a {
 
 .about-card {
     border: 1px solid #eeffee;
-    height: 360px;
-    width: 420px;
+    width: 370px;
+    height: 300px;
 }
 
 .ellipse {
@@ -170,13 +173,13 @@ a {
     bottom: -100px;
     left: 15px;
     border-radius: 15px;
-    height: 200px;
+    height: 180px;
 }
 
 .about-mirror-yt {
     background-color: #eaeaea;
-    width: 150px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 8px;
 }
 
@@ -189,6 +192,7 @@ a {
     border: 1px solid #e4e4e4;
     background-color: #f4f4f4;
     overflow: hidden;
+    width: 530px;
 }
 
 .tab-group {
@@ -197,13 +201,13 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 60px;
-    left: 20px;
+    top: 70px;
+    left: 10px;
     transform: rotate(30deg);
 }
 
 .img-box {
-    overflow-x: hidden;
+    overflow-x: scroll;
 }
 
 .footer-btn {
@@ -235,4 +239,13 @@ a {
     top: 0;
     left: -50px;
     opacity: .899;
+}
+
+.accordion{
+    cursor: pointer;
+
+}
+
+.accordion-item{
+    background-color: transparent;
 }
